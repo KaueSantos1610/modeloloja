@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Voltz Engenharia & Materiais Elétricos</title>
+    <meta name="description" content="Entre em contato com a Voltz Engenharia. Solicite orçamentos, cotações de materiais elétricos ou atendimento técnico.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23F59E0B'><path d='M13 2L3 14h9l-1 8 10-12h-9l1-8z'/></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="header" id="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-bolt-lightning"></i>
+                <span>VOLTZ</span>
+            </a>
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Início</a></li>
+                    <li><a href="sobre.html" class="nav-link">Sobre</a></li>
+                    <li><a href="servicos.html" class="nav-link">Serviços & Produtos</a></li>
+                    <li><a href="galeria.html" class="nav-link">Galeria</a></li>
+                    <li><a href="contato.html" class="nav-link active">Contato</a></li>
+                </ul>
+                <div class="nav-cta-mobile">
+                    <a href="https://wa.me/5511999999999?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento." target="_blank" class="btn btn-primary btn-full">
+                        <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                    </a>
+                </div>
+            </nav>
+            <div class="header-actions">
+                <a href="https://wa.me/5511999999999?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento." target="_blank" class="btn btn-primary d-none-mobile">
+                    <i class="fa-brands fa-whatsapp"></i> Fale Conosco
+                </a>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container text-center">
+                <span class="sub-title">Fale Conosco</span>
+                <h1>Entre em Contato</h1>
+                <p>Nossa equipe técnica e comercial está à disposição para atender sua demanda com máxima agilidade.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section">
+            <div class="container contact-grid">
+                
+                <!-- Informações de Contato -->
+                <div class="contact-info-box">
+                    <h2>Canais de Atendimento</h2>
+                    <p>Escolha a forma mais conveniente para falar com nossos especialistas.</p>
+                    
+                    <ul class="contact-list">
+                        <li>
+                            <div class="icon-box-sm"><i class="fa-solid fa-phone"></i></div>
+                            <div>
+                                <span>Telefone Fixo</span>
+                                <strong>(11) 3456-7890</strong>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-box-sm"><i class="fa-brands fa-whatsapp"></i></div>
+                            <div>
+                                <span>WhatsApp Comercial</span>
+                                <strong>(11) 99999-9999</strong>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-box-sm"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <span>E-mail Corporativo</span>
+                                <strong>contato@voltzengenharia.com.br</strong>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-box-sm"><i class="fa-solid fa-location-dot"></i></div>
+                            <div>
+                                <span>Endereço</span>
+                                <strong>Av. Paulista, 1000 - Conj. 52 - Bela Vista, São Paulo - SP</strong>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-box-sm"><i class="fa-solid fa-clock"></i></div>
+                            <div>
+                                <span>Horário de Funcionamento</span>
+                                <strong>Segunda a Sexta: 08:00 às 18:00</strong>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="mt-4">
+                        <a href="https://wa.me/5511999999999?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento." target="_blank" class="btn btn-primary btn-full">
+                            <i class="fa-brands fa-whatsapp"></i> Chamar no WhatsApp Imediatamente
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Formulário de Contato -->
+                <div class="contact-form-box">
+                    <h2>Envie sua Mensagem</h2>
+                    <p>Preencha os campos abaixo e entraremos em contato em até 2 horas úteis.</p>
+                    
+                    <form id="contactForm" class="form">
+                        <div class="form-group">
+                            <label for="name">Nome Completo *</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Telefone / WhatsApp *</label>
+                                <input type="tel" id="phone" name="phone" class="form-control" placeholder="(11) 99999-9999" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail *</label>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="seu@email.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Assunto / Serviço de Interesse *</label>
+                            <select id="subject" name="subject" class="form-control" required>
+                                <option value="">Selecione uma opção</option>
+                                <option value="Painéis Elétricos QGBT">Painéis Elétricos QGBT</option>
+                                <option value="Materiais Industriais">Materiais Elétricos Industriais</option>
+                                <option value="Laudos e Termografia">Laudos e Termografia</option>
+                                <option value="Automação Industrial">Automação Industrial</option>
+                                <option value="Outros Assuntos">Outros Assuntos / Orçamento Geral</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem / Detalhes do Projeto *</label>
+                            <textarea id="message" name="message" rows="5" class="form-control" placeholder="Descreva brevemente sua necessidade..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Enviar Mensagem</button>
+                        <div id="formSuccess" class="form-success-msg hidden">
+                            <i class="fa-solid fa-circle-check"></i> Mensagem simulada com sucesso! Entraremos em contato em breve.
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Google Maps -->
+        <section class="map-section">
+            <div class="container-fluid">
+                <iframe title="Localização Voltz Engenharia" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.197949575973!2d-46.6543!3d-23.5614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMzJzQxLjAiUyA0NsKwMzknMTUuNSJX!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="index.html" class="logo footer-logo">
+                    <i class="fa-solid fa-bolt-lightning"></i>
+                    <span>VOLTZ</span>
+                </a>
+                <p>Referência em engenharia elétrica e fornecimento de materiais de alta performance. Garantia de segurança e inovação.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre a Empresa</a></li>
+                    <li><a href="servicos.html">Serviços & Produtos</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Serviços & Produtos</h4>
+                <ul>
+                    <li><a href="servicos.html">Painéis Elétricos (QGBT)</a></li>
+                    <li><a href="servicos.html">Materiais Industriais</a></li>
+                    <li><a href="servicos.html">Laudos e Termografia</a></li>
+                    <li><a href="servicos.html">Automação Industrial</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contato</h4>
+                <p><i class="fa-solid fa-phone"></i> (11) 3456-7890</p>
+                <p><i class="fa-brands fa-whatsapp"></i> (11) 99999-9999</p>
+                <p><i class="fa-solid fa-envelope"></i> contato@voltzengenharia.com.br</p>
+                <p><i class="fa-solid fa-location-dot"></i> Av. Paulista, 1000 - São Paulo, SP</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container text-center">
+                <p>&copy; 2026 Voltz Engenharia & Materiais Elétricos. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
